@@ -1,0 +1,46 @@
+title: Yinying's Web
+theme: PaperMod
+baseURL: https://v-as.github.io/
+
+markup: 
+  goldmark: 
+    renderer:
+      unsafe: true
+
+assets:
+  - disableHLJS: true
+
+params:
+  description: Hello! 
+  keywords:
+    - Yinying
+  env: production
+  defaultTheme: auto
+  homeInfoParams:
+    Title: Yinying Huo
+    Content: M.Sc. student in Computer Science @[McMaster](https://www.mcmaster.ca). [<u>More about me</u>](https://discord.com)
+  socialIcons:
+    - name: discord
+      url: https://discord.com
+    - name: github
+      url: https://github.com
+    - name: twitter
+      url: https://twitter.com
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about
+      weight: 10
+    - identifier: Research
+      name: Research
+      url: /research
+      weight: 20
+    - identifier: Publications
+      name: Publications
+      url: /publications
+      weight: 30
+    - identifier: TAing
+      name: TAing
+      url: /taing
+      weight: 40
