@@ -60,13 +60,13 @@
 </noscript>
   
 
-<meta property="og:title" content="" />
+<meta property="og:title" content="About me" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://v-as.github.io/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="About me"/>
 <meta name="twitter:description" content=""/>
 
 <script type="application/ld+json">
@@ -147,39 +147,28 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<div class="post-content"><!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-<head>
-    {{ partial "head.html" . }}
-</head>
-<body>
-    <div class="wrapper">
-        {{ partial "header.html" . }}
+<main class="main">
 
-        <main class="main">
-            
-            {{ $aboutPage := .Site.GetPage "/about" }}
-            {{ if $aboutPage }}
-                <article class="post-single">
-                    <header class="post-header">
-                        <h1 class="post-title">{{ $aboutPage.Title }}</h1>
-                    </header>
-                    <div class="post-content">
-                        {{ $aboutPage.Content }}
-                    </div>
-                </article>
-            {{ else }}
-                <p>About page not found!</p>
-            {{ end }}
-        </main>
-
-        {{ partial "footer.html" . }}
-    </div>
-</body>
-</html>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      About me
+    </h1>
+    <div class="post-meta"><span title='2024-06-25 00:00:00 +0000 UTC'>June 25, 2024</span>
 
 </div>
+  </header> 
+  <div class="post-content"><p>Hello!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
