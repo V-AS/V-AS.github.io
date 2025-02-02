@@ -1,13 +1,30 @@
-{{ define "main" }}
-    {{ $aboutPage := .Site.GetPage "/about" }}
-    <main class="main">
-        <article class="post-single">
-            <header class="post-header">
-                <h1 class="post-title">{{ $aboutPage.Title }}</h1>
-            </header>
-            <div class="post-content">
-                {{ $aboutPage.Content }}
-            </div>
-        </article>
-    </main>
-{{ end }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <div class="wrapper">
+        {{ partial "header.html" . }}
+
+        <main class="main">
+            
+            {{ $aboutPage := .Site.GetPage "/about" }}
+            {{ if $aboutPage }}
+                <article class="post-single">
+                    <header class="post-header">
+                        <h1 class="post-title">{{ $aboutPage.Title }}</h1>
+                    </header>
+                    <div class="post-content">
+                        {{ $aboutPage.Content }}
+                    </div>
+                </article>
+            {{ else }}
+                <p>About page not found!</p>
+            {{ end }}
+        </main>
+
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+</html>
