@@ -10,22 +10,22 @@ markup:
 assets:
   - disableHLJS: true
 
-params:
-  description: Hello!
-  keywords:
-    - Yinying
-  env: production
-  defaultTheme: auto
-  homeInfoParams:
-    Title: Yinying Huo
-    Content: M.Sc. student in Computer Science @[McMaster](https://www.mcmaster.ca). [<u>More about me</u>](https://v-as.github.io/about/)
-  socialIcons:
-    - name: discord
-      url: https://discord.com
-    - name: github
-      url: https://github.com
-    - name: twitter
-      url: https://twitter.com
+# params:
+#   description: Hello!
+#   keywords:
+#     - Yinying
+#   env: production
+#   defaultTheme: auto
+#   homeInfoParams:
+#     Title: Yinying Huo
+#     Content: M.Sc. student in Computer Science @[McMaster](https://www.mcmaster.ca). [<u>More about me</u>](https://v-as.github.io/about/)
+  # socialIcons:
+  #   - name: discord
+  #     url: https://discord.com
+  #   - name: github
+  #     url: https://github.com
+  #   - name: twitter
+  #     url: https://twitter.com
 menu:
   main:
     - identifier: About

@@ -3,7 +3,7 @@ title: TAing
 layout: single
 description: These are all the courses I've TAed for or am currently TAing.
 showReadingTime: false
-modified: 2024-06-25
+modified: 2025-02-01
 keywords:
   - Yinying
 ---
