@@ -8,4 +8,6 @@ keywords:
   - Yinying
 ---
 
-Hello! 
+Hello! I am Yinying Huo, currently pursuing an M.Sc. in Computer Science at McMaster University. 
+
+Prior to this, I completed my undergraduate degree, a B.Sc. with specialization in Mathematics - Computational Science, at the University of Alberta.

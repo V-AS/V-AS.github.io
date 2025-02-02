@@ -28,10 +28,10 @@ assets:
   #     url: https://twitter.com
 menu:
   main:
-    - identifier: About
-      name: About
-      url: /about
-      weight: 10
+    # - identifier: About
+    #   name: About
+    #   url: /about
+    #   weight: 10
     - identifier: Research
       name: Research
       url: /research
