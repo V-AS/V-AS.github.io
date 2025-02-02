@@ -8,6 +8,10 @@ keywords:
   - Yinying
 ---
 
+[McMaster University](https://www.mcmaster.ca) *2024-2025*
+: COMPSCI 4AL3 - Applications of Machine Learning \
+ COMPSCI 4SD3 - Data-Driven Algorithms for Sequential Decision Making
+
 [University of Alberta](https://www.ualberta.ca) *2022-2024*
 : MATH 241 - Geometry \
  MATH 111 - Introduction to Discrete Mathematics \

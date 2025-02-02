@@ -11,7 +11,7 @@ assets:
   - disableHLJS: true
 
 params:
-  description: Hello! 
+  description: Hello!
   keywords:
     - Yinying
   env: production
